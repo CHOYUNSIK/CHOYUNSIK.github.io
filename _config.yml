@@ -14,8 +14,8 @@ profile_image: images/about.jpg
 
 
 # SNS 아이디
-facebook_id: <username>
-instagram_id: <username>
+#facebook_id: <username>
+#instagram_id: <username>
 
 
 # Youtube vid
@@ -49,7 +49,7 @@ slider_0:
 # 형식에 맞추어 항목 추가
 slider_1:
 - background_url: images/cover_bg_2.jpg
-  title: HyunWoo portfoilo site
+  title: SIK SIK portfoilo site
   subtitle: >- 
     likelion<br>
     GitPortfolio<br>
