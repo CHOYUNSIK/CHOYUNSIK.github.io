@@ -25,7 +25,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
+
 	<style>
 		body {
 			--primary-color: #{{site.primary}};
@@ -59,7 +59,7 @@
 
 	</head>
 	<body>
-		
+
 	<!-- 사이드바 -->
 	<div id="colorlib-page">
 		<div class="container-wrap">
@@ -86,14 +86,14 @@
 				</div>
 			</nav>
 
-			<div class="colorlib-footer">
+			<!--<div class="colorlib-footer">
 				<ul>
 					<li><a href="https://www.facebook.com/{{ site.facebook_id }}">Facebook<i class="icon-facebook2"></i></a></li>
-					<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
+					&lt;!&ndash; <li><a href="#"><i class="icon-twitter2"></i></a></li> &ndash;&gt;
 					<li><a href="https://www.instagram.com/{{ site.instagram_id }}">Instagram<i class="icon-instagram"></i></a></li>
-					
+
 				</ul>
-			</div>
+			</div>-->
 
 		</aside>
 
@@ -110,6 +110,7 @@
 											<div class="slider-text-inner js-fullheight">
 												<div class="desc" style="position: {{ slider.position }}; left: {{ slider.left }}; bottom: {{ slider.bottom }}; transform : {{ slider.transform }};">
 													<h1>{{ slider.title }}</h1>	<!-- 메인 첫번째 슬라이드 이미지의 인사말 에니메이션 효과 -->
+													<h2>{{ slider.subtitle }}</h2>
 												</div>
 											</div>
 										</div>
@@ -122,7 +123,7 @@
 								<div class="overlay"></div>
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+										<div class="col-md-11 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 											<div class="slider-text-inner">
 												<div class="desc" style="position: {{ slider.position }}; left: {{ slider.left }}; bottom: {{ slider.bottom }}; transform : {{ slider.transform }};">
 													<h1 style='color:white;'>{{ slider.title }}</h1>   <!-- 메인 두번째 슬라이드 이미지의 소개말 에니메이션 효과 -->
@@ -138,7 +139,7 @@
 			  	</div>
 			</section>
 
-			<!-- About -->	
+			<!-- About -->
 			<section class="colorlib-about" data-section="about">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -148,7 +149,7 @@
 									<div class="about-desc">
 										<span class="heading-meta">{{ site.about_meta }}</span>
 										<h2 class="colorlib-heading">{{ site.about_header }}</h2>
-										<p><strong>{{ site.about_introduce }}</strong></p> 
+										<p><strong>{{ site.about_introduce }}</strong></p>
 										<p>{{ site.about_content }}</p>
 									</div>
 								</div>
@@ -159,7 +160,7 @@
 										<span class="icon2"><i class="{{ site.about_services[0].icon | default: 'icon-data' }}"></i></span>
 										<h3>{{ site.about_services[0].name }}</h3>
 									</div>
-									
+
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
 									<div class="services color-2">
@@ -194,7 +195,7 @@
 				</div>
 			</section>
 
-			<!-- Tech skills -->	
+			<!-- Tech skills -->
 			<section class="colorlib-skills" data-section="skills">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -232,7 +233,7 @@
 				</div>
 			</section>
 
-			<!-- Project -->	
+			<!-- Project -->
 			<section class="colorlib-work" data-section="work">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -253,7 +254,7 @@
 					<div class="animate-box" data-animate-effect="fadeInTop">
 					<strong>{{ site.project_my_name }}</strong>
 					<hr>
-					</div>	
+					</div>
 					<div class="row">
 						{% for proj in site.project_my %}
 							<div class="col-md-6 animate-box" data-animate-effect="{{ proj.animation }}">
@@ -298,7 +299,7 @@
                         {% endfor %}
 					</div>
 
-				
+
 					<div class="animate-box" data-animate-effect="fadeInTop">
 					<strong>{{ site.project_business_name }}</strong>
 					<hr>
@@ -321,7 +322,7 @@
 								</div>
 							</div>
                         {% endfor %}
-						
+
 
 					<div class="row">
 						<div class="col-md-12 animate-box">
@@ -331,7 +332,7 @@
 				</div>
 			</section>
 
-			<!-- Experience -->	
+			<!-- Experience -->
 			<section class="colorlib-services" data-section="services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -361,7 +362,7 @@
 					</div>
 				</div>
 			</section>
-			
+
 			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url({{site.exp_counters_bg_img}});" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="colorlib-narrow-content">
@@ -378,7 +379,7 @@
 				</div>
 			</div>
 
-			<!-- Career -->				
+			<!-- Career -->
 			<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -392,7 +393,7 @@
 						<div class="col-md-12">
 				         <div class="timeline-centered">
 							{% for career in site.career_list %}
-								<article class="timeline-entry animate-box" data-animate-effect="{{ career.animation }}"> <!-- 왼쪽에서 -->	
+								<article class="timeline-entry animate-box" data-animate-effect="{{ career.animation }}"> <!-- 왼쪽에서 -->
 									<div class="timeline-entry-inner">
 
 									<div class="timeline-icon {{ career.color | default: "color-1" }}">
@@ -476,9 +477,9 @@
 				</div>
 			</section>
 
-			
 
-			
+
+
 			<section class="colorlib-blog" data-section="blog">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -505,7 +506,7 @@
 						<div class="col-md-12 animate-box">
 							<p><a href="{{ site.blog_load_more_url | default: '#'}}" onclick="return false;" class="btn btn-primary btn-lg btn-load-more">{{ site.blog_load_more }}</a></p>
 						</div>
-						
+
 					</div>
 					{% include youtubeplayer.html id=site.youtube_vid %}
 				</div>
@@ -561,17 +562,17 @@
 										<div class="form-group">
 											<input type="button" onclick="mailSend();" class="btn btn-primary btn-send-message" value="Send Message">
 										</div>
-								
+
 										<div class="thankyou_message" style="display:none;" id="thankyou_message">
 											<h3>{{ site.contact_message }}</h3>
 										</div>
 									</form>
-								</div>		
+								</div>
 							</div>
 						</div> {% endcomment %}
 					</div>
 				</div>
-				
+
 			</section>
 
 
@@ -598,8 +599,8 @@
 	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 	<script type="text/javascript">
-        function createData() { 
-        var sendData = $('#gform').serialize(); 
+        function createData() {
+        var sendData = $('#gform').serialize();
         return sendData;
 	     }
 	     function mailSend(){
@@ -615,11 +616,11 @@
 	         	console.log("error")
 
 	         }
-	      });  
+	      });
 	     }
 
     </script>
-	
+
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 

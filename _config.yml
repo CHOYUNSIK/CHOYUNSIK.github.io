@@ -37,61 +37,55 @@ color_6: 4054b2
 # 형식에 맞추어 항목 추가
 slider_0:
 - background_url: images/cover_bg_1.jpg
-  title: 안녕하세요 <br> 반갑습니다.
+  title: 안녕하세요
+  subtitle: >-
+    저는 백엔드 개발 분야에서 꾸준히 성장하며 <br> 새로운 기술을 습득하고 적용하는 것을 즐기고 있습니다.
   position: absolute
-  transform: translate( -50%, -150% )
-  left: 200px
-  bottom: 80px
+  transform: translate( -50%, -202% )
+  left: 120px
+#  bottom: 80px
 
 
 
 # slider type 1
 # 형식에 맞추어 항목 추가
 slider_1:
-- background_url: images/about.jpg
-  title: HyunWoo portfoilo site
+- background_url: images/cover_bg_2.jpg
+  title: Portfoilo Site
   subtitle: >- 
-    likelion<br>
-    GitPortfolio<br>
-    withGitBlog<br>
-    OnlineClass
+    신기술에 대한 열정과 꾸준한 학습을 바탕으로 안정적이고 효율적인 서버 구축을 추구하는 백엔드 개발자입니다.
   position: absolute
-  transform: translate( -50%, -50% )
+  transform: translate( -50%, -150% )
   left: 400px
-  bottom: 280px
+#  bottom: 280px
 
 
 
 # About
 about_meta: About Me
 about_header: >- 
-  "타자도 못치던 대학생"
+  "Java와 Spring을 활용한 백엔드 개발자의 성장 이야기"
 about_introduce: >-
-  "안녕하세요. 인공지능 전문가를 꿈꾸는 아기 개발자, AI 대학원생 김현우입니다."
+  "안녕하세요. 새로운 기술과 협업을 통해 발전하는 개발자 조윤식입니다."
 about_content: >-
-  학창 시절부터 나만의 사업,서비스 만드는것을 꿈꿔왔습니다. 
-  나만의 것을 만들고 상을 받아 인정받는것을 좋아했습니다. 
-  수학과 과학이 좋아 과학중점학교로 진학하였습니다. 
-  그리하여 산업경영공학과에 진학하였습니다. 
-  대학에서 배우는것은 생각보다 흥미롭지않았고 브레이크댄스에 빠져 열심히 춤을 췄습니다. 
-  군복무중인 16년도 격변하는 세상속에 우연히 인공지능,3D 프린터에 관한 책을 읽으면서 처음으로 코딩,프로그래밍이라는 단어를 알게되었습니다. 
-  어떠한 대규모 자본이나 인적 네트워크없이 프로그래밍 실력만으로 앱,프로그램등을 만들어 수익을 창출할수 있다는것이, 
-  내 아이디어만 있으면 그 아이디어를 가장 쉽게 구현할수 있는 도구가 있다는것이 너무나 저를 두근거리게 만들었습니다. <br>
-  고민은 깊게 판단은 확실하게 하기위해 저는 전역을 하자마자 전과를 하였습니다. 
-  우습게도 저는 영어타자는 물론 한글타자도 못치던 사람이였습니다. 
-  프로그래밍은 물론 컴퓨터에 대해 아무것도 몰랐습니다. <br>
-  <strong>아무것도 몰랐기에 너무나 부족함을 알았기에 모든것을 따라했었습니다.</strong>
-  전공자도 아니였고 아직도 모르는것 투성이지만 조금 늦은만큼 더 열심히 배워가고 있습니다.
+  안녕하세요, 저는 Java와 Spring을 활용한 백엔드 개발자입니다. 대학교에서 전공으로 배운 내용을 기반으로, 현재는 웹 어플리케이션 개발에 매우 익숙합니다. 지금까지의 경력을 통해, 제가 만든 프로그램들이 사용자들에게 좋은 경험을 제공하게 된다는 것을 목격했습니다.
+
+  하지만, 개발자로서 성장하는 것은 멈출 수 없는 과정입니다. 저는 항상 새로운 기술과 프레임워크를 배우는 것에 열려있으며, 이를 이용하여 더욱 발전한 소프트웨어를 만들기 위해 노력합니다. 지금까지는 Java와 Spring을 중심으로 개발을 진행해왔지만, 새로운 기술과 도구를 배우고 적용하는 것에 큰 흥미를 느끼고 있습니다.
+
+  또한, 제가 가장 중요하게 생각하는 것 중 하나는 협업입니다. 개발은 혼자하는 것이 아닌, 팀으로 진행되는 작업입니다. 저는 팀에서 협업하는 것을 좋아합니다. 서로가 서로의 아이디어를 나누며 더욱 발전하는 팀워크를 즐기는 편입니다. 또한, 다른 개발자들과 함께 일하면서 배울 것이 많고, 새로운 아이디어와 시각을 얻을 수 있다는 것을 깨달았습니다.
+
+  이렇게, 저는 계속해서 새로운 기술과 협업을 통해 발전하는 개발자가 되고자 합니다.
 
 about_services: # 형식에 맞추어 항목 추가
-- icon: icon-bell
-  name: Server
-- icon: icon-monitor
-  name: Web
-- icon: icon-phone3
-  name: App
 - icon: icon-code
   name: Java
+- icon: icon-leaf
+  name: Spring
+- icon: icon-monitor
+  name: Back-end
+- icon: icon-study
+  name: 정보관리기술사
+
 
 about_box_content: >-
   “천재는 즐기는 사람을 이길수 없고 <br>
