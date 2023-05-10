@@ -275,7 +275,7 @@
                         {% endfor %}
 					</div>
 
-					<div class="animate-box" data-animate-effect="fadeInTop">
+					<!--<div class="animate-box" data-animate-effect="fadeInTop">
 					<strong>{{ site.project_team_name }}</strong>
 					<hr>
 					</div>
@@ -288,7 +288,7 @@
 											<h3><a href="#" target="_blank">{{ proj.name }}</a></h3>
 											<span>{{ proj.description }}</span>
 											<p class="icon">
-												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
+												&lt;!&ndash; <span><a href="#"><i class="icon-share3"></i></a></span> &ndash;&gt;
 												<span><a href="{{ proj.detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
 												<span><a href="{{ proj.readmore_url | default: "#" }}" target="_blank"><i class="icon-file"></i> 구현 기능 상세보기</a></span>
 											</p>
@@ -297,7 +297,7 @@
 								</div>
 							</div>
                         {% endfor %}
-					</div>
+					</div>-->
 
 
 					<div class="animate-box" data-animate-effect="fadeInTop">
@@ -324,11 +324,11 @@
                         {% endfor %}
 
 
-					<div class="row">
+					<!--<div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="{{ site.project_load_more_url | default: '#'}}" onclick="return true;" class="btn btn-primary btn-lg btn-load-more"> {{ site.project_load_more }}</a></p>
 						</div>
-					</div>
+					</div>-->
 				</div>
 			</section>
 
@@ -363,7 +363,7 @@
 				</div>
 			</section>
 
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url({{site.exp_counters_bg_img}});" data-stellar-background-ratio="0.5">
+			<!--<div id="colorlib-counter" class="colorlib-counters" style="background-image: url({{site.exp_counters_bg_img}});" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -377,7 +377,7 @@
                         {% endfor %}
 					</div>
 				</div>
-			</div>
+			</div>-->
 
 			<!-- Career -->
 			<section class="colorlib-experience" data-section="experience">
@@ -502,13 +502,13 @@
 							</div>
 						{% endfor %}
 					</div>
-					<div class="row">
+	<!--				<div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="{{ site.blog_load_more_url | default: '#'}}" onclick="return false;" class="btn btn-primary btn-lg btn-load-more">{{ site.blog_load_more }}</a></p>
 						</div>
 
-					</div>
-					{% include youtubeplayer.html id=site.youtube_vid %}
+					</div>-->
+<!--					{% include youtubeplayer.html id=site.youtube_vid %}-->
 				</div>
 			</section>
 
