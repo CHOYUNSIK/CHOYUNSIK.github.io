@@ -189,21 +189,21 @@ project_my: # 형식에 맞추어 항목 추가
 #  detail_url: #
 #  readmore_url: #
 
-- background_url: images/project3.PNG
+- background_url: images/project3.png
   animation: fadeInLeft
   name: 결제 시스템 (PG)
   description: 결제 시스템(PG)은 전자 상거래, 모바일 앱, POS 등에서 신용카드나 계좌이체 등 다양한 결제 수단을 통해 결제를 처리하는 시스템입니다
   detail_url: https://ysiksik.github.io/payment-system/
 #  readmore_url: #
 
-- background_url: images/project2.PNG
+- background_url: images/project2.png
   animation: fadeInLeft
   name: 쿠폰 서비스
   description: 휴대폰 소액 결제 쿠폰 서비스는 사용자들이 휴대폰을 통해 간편하게 소액 결제를 할 수 있도록 도와주는 서비스입니다. 이 서비스는 사용자들이 원하는 상품을 구매할 때 쿠폰을 사용하여 할인 또는 쿠폰 발급을 받을 수 있는 기능을 제공합니다
   detail_url: https://ysiksik.github.io/coupon-service/
 #  readmore_url: #
 
-- background_url: images/project1.PNG
+- background_url: images/project1.png
   animation: fadeInLeft
   name: 비트코인 거래소
   description: 이 프로젝트는 비트 코인 거래소 웹 애플리케이션 개발을 목표로 합니다. 사용자는 웹 애플리케이션을 통해 비트 코인을 구매하고 판매할 수 있습니다. 거래소는 비트 코인 거래를 중개하는 역할을 합니다.
@@ -377,7 +377,7 @@ blog_load_more_url: #
 blog_list:
 - title: 개발 블로그
   subtitle: 개발 블로그 운영
-  content: 여러 분야의 프로그래머들을 보면서 부러워도 하고 좌절도 하였지만 포기하지않고 어느 한분야라도 '장인'이 되겠다는 마음으로 꾸준히 개발 블로그를 운영해오고 있습니다.
+  content: 저는 백엔드 개발 분야에서 꾸준히 성장하며 새로운 기술을 습득하고 적용하는 것을 즐기고 있습니다. 이 블로그에서는 제가 배운 내용들과 개발 경험을 공유하며, 다른 개발자들과 함께 성장하는 공간을 만들고자 합니다.
   thumbnail_url: images/cover_bg_2.jpg
   link: https://ysiksik.github.io/
 
