@@ -80,7 +80,6 @@ about_services: # 형식에 맞추어 항목 추가
 - icon: icon-code
   name: Java
 - icon: icon-leaf
-
   name: Spring
 - icon: icon-monitor
   name: Back-end
