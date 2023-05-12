@@ -197,7 +197,7 @@ project_my: # 형식에 맞추어 항목 추가
 
 - background_url: images/project2.png
   animation: fadeInLeft
-  name: 쿠폰 서비스
+  name: 쿠폰 서비스 (총 5개 프로젝트로 구성)
   description: 휴대폰 소액 결제 쿠폰 서비스는 사용자들이 휴대폰을 통해 간편하게 소액 결제를 할 수 있도록 도와주는 서비스입니다. 이 서비스는 사용자들이 원하는 상품을 구매할 때 쿠폰을 사용하여 할인 또는 쿠폰 발급을 받을 수 있는 기능을 제공합니다
   detail_url: https://ysiksik.github.io/coupon-service/
 #  readmore_url: #
