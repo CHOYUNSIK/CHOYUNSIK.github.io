@@ -190,7 +190,7 @@ project_my: # 형식에 맞추어 항목 추가
 
 - background_url: images/project3.png
   animation: fadeInLeft
-  name: 결제 시스템 (PG)
+  name: 결제 시스템 (PG) (총 15개 프로젝트로 구성)
   description: 결제 시스템(PG)은 전자 상거래, 모바일 앱, POS 등에서 신용카드나 계좌이체 등 다양한 결제 수단을 통해 결제를 처리하는 시스템입니다
   detail_url: https://ysiksik.github.io/payment-system/
 #  readmore_url: #
