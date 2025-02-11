@@ -2,7 +2,7 @@ title: 조윤식의 포폴사이트
 name: 조윤식
 email: appie6069@naver.com
 description: >-
-  Java/Spring 기반 백엔드 엔지니어
+  Backend 개발자
 
 
 baseurl: ""
@@ -35,28 +35,28 @@ color_6: 4054b2
 
 # slider type 0
 # 형식에 맞추어 항목 추가
-slider_0:
-- background_url: images/cover_bg_1.jpg
-  title: 안녕하세요
-  subtitle: >-
-    저는 백엔드 개발 분야에서 꾸준히 성장하며 <br> 새로운 기술을 습득하고 적용하는 것을 즐기고 있습니다.
-  position: absolute
-  transform: translate( -50%, -210% )
-  left: 120px
+#slider_0:
+#- background_url: images/cover_bg_1.jpg
+#  title: 안녕하세요
+#  subtitle: >-
+#    저는 백엔드 개발 분야에서 꾸준히 성장하며 <br> 새로운 기술을 습득하고 적용하는 것을 즐기고 있습니다.
+#  position: absolute
+#  transform: translate( -50%, -210% )
+#  left: 120px
 #  bottom: 80px
 
 
 
 # slider type 1
 # 형식에 맞추어 항목 추가
-slider_1:
-- background_url: images/cover_bg_2.jpg
-  title: Portfoilo Site
-  subtitle: >- 
-    신기술에 대한 열정과 꾸준한 학습을 바탕으로 안정적이고 효율적인 서버 구축을 추구하는 백엔드 개발자입니다.
-  position: absolute
-  transform: translate( -50%, -150% )
-  left: 400px
+#slider_1:
+#- background_url: images/cover_bg_2.jpg
+#  title: Portfoilo Site
+#  subtitle: >-
+#    신기술에 대한 열정과 꾸준한 학습을 바탕으로 안정적이고 효율적인 서버 구축을 추구하는 백엔드 개발자입니다.
+#  position: absolute
+#  transform: translate( -50%, -150% )
+#  left: 400px
 #  bottom: 280px
 
 
@@ -64,11 +64,11 @@ slider_1:
 # About
 about_meta: About Me
 about_header: >- 
-  "Java와 Spring을 활용한 백엔드 개발자의 성장 이야기"
+  "백엔드 개발자의 성장 이야기"
 about_introduce: >-
   "안녕하세요. 새로운 기술과 협업을 통해 발전하는 개발자 조윤식입니다."
 about_content: >-
-  안녕하세요, 저는 Java와 Spring을 활용한 백엔드 개발자입니다. 대학교에서 전공으로 배운 내용을 기반으로, 현재는 웹 어플리케이션 개발에 매우 익숙합니다. 지금까지의 경력을 통해, 제가 만든 프로그램들이 사용자들에게 좋은 경험을 제공하게 된다는 것을 목격했습니다.
+  안녕하세요, 저는 백엔드 개발자입니다. 대학교에서 전공으로 배운 내용을 기반으로, 현재는 웹 어플리케이션 개발에 매우 익숙합니다. 지금까지의 경력을 통해, 제가 만든 프로그램들이 사용자들에게 좋은 경험을 제공하게 된다는 것을 목격했습니다.
 
   하지만, 개발자로서 성장하는 것은 멈출 수 없는 과정입니다. 저는 항상 새로운 기술과 프레임워크를 배우는 것에 열려있으며, 이를 이용하여 더욱 발전한 소프트웨어를 만들기 위해 노력합니다. 지금까지는 Java와 Spring을 중심으로 개발을 진행해왔지만, 새로운 기술과 도구를 배우고 적용하는 것에 큰 흥미를 느끼고 있습니다.
 
@@ -87,27 +87,27 @@ about_services: # 형식에 맞추어 항목 추가
   name: 정보관리기술사
 
 
-about_box_content: >-
-  저는 잘 살기 위해서는 어떤 마음가짐으로 살아가야 할지를 진지하게 고민해보았습니다. <br>
-  다양한 분야에서 성공한 사람들을 보면 그들은 각자의 분야에서 성공하기 위한 비결을 갖고 있었습니다. <br>
-  그들이 성공한 것은 단지 열정과 노력뿐만 아니라 <br>
-  자신을 내세우며 자신의 분야에서 필요한 능력과 태도를 갖추었기 때문입니다.<br>
-  저도 개발자로서 성공하기 위해서는 "개발자다움"이란 것을 갖추어야 한다는 생각이 들었습니다. <br>
-  개발자다움은 자신의 일에 대한 열정과 책임감, 그리고 끊임없는 학습과 발전으로 이루어진다고 생각합니다. <br>
-  이러한 개발자다움의 정신을 바탕으로, <br> 
-  저는 현재 개발한 것에 만족하지 않고 더 나은 프로그램을 개발하기 위해 노력하고 있습니다.<br>
-  더불어, 맡은 프로젝트가 더욱 발전할 수 있도록 최선을 다하고 있습니다. <br>
-  프로젝트를 완성하는 것에 그치지 않고, <br> 
-  더 나은 프로그램을 만들기 위해 항상 새로운 아이디어를 모색하고 기술적인 도전에 끊임없이 도전합니다.<br>
-  나의 목표는 끊임없이 발전하며, 다양한 경험과 능력을 통해 성장하는 것입니다.<br>
-  저는 더 나은 개발자가 되기 위해 자신의 역량을 끊임없이 향상시키고,<br>
-  이를 통해 사람들에게 더 많은 가치를 제공할 수 있도록 노력할 것입니다.<br>
-
-about_box_content_color : rgb(255,255,255)
-
-about_box_button:
-  link: https://ysiksik.github.io/
-  name: 개발자 답게 살겠습니다
+#about_box_content: >-
+#  저는 잘 살기 위해서는 어떤 마음가짐으로 살아가야 할지를 진지하게 고민해보았습니다. <br>
+#  다양한 분야에서 성공한 사람들을 보면 그들은 각자의 분야에서 성공하기 위한 비결을 갖고 있었습니다. <br>
+#  그들이 성공한 것은 단지 열정과 노력뿐만 아니라 <br>
+#  자신을 내세우며 자신의 분야에서 필요한 능력과 태도를 갖추었기 때문입니다.<br>
+#  저도 개발자로서 성공하기 위해서는 "개발자다움"이란 것을 갖추어야 한다는 생각이 들었습니다. <br>
+#  개발자다움은 자신의 일에 대한 열정과 책임감, 그리고 끊임없는 학습과 발전으로 이루어진다고 생각합니다. <br>
+#  이러한 개발자다움의 정신을 바탕으로, <br>
+#  저는 현재 개발한 것에 만족하지 않고 더 나은 프로그램을 개발하기 위해 노력하고 있습니다.<br>
+#  더불어, 맡은 프로젝트가 더욱 발전할 수 있도록 최선을 다하고 있습니다. <br>
+#  프로젝트를 완성하는 것에 그치지 않고, <br>
+#  더 나은 프로그램을 만들기 위해 항상 새로운 아이디어를 모색하고 기술적인 도전에 끊임없이 도전합니다.<br>
+#  나의 목표는 끊임없이 발전하며, 다양한 경험과 능력을 통해 성장하는 것입니다.<br>
+#  저는 더 나은 개발자가 되기 위해 자신의 역량을 끊임없이 향상시키고,<br>
+#  이를 통해 사람들에게 더 많은 가치를 제공할 수 있도록 노력할 것입니다.<br>
+#
+#about_box_content_color : rgb(255,255,255)
+#
+#about_box_button:
+#  link: https://ysiksik.github.io/
+#  name: 개발자 답게 살겠습니다
 
 
 # Tech  skill
@@ -390,13 +390,13 @@ blog_list:
 
 
 # Contact
-contact_meta: Get in Touch
-contact_header: Contact
-contact_list:
-- title: appie6069@naver.com
-  icon: icon-globe-outline
-- title: 서울특별시 노원구
-  icon: icon-map
+#contact_meta: Get in Touch
+#contact_header: Contact
+#contact_list:
+#- title: appie6069@naver.com
+#  icon: icon-globe-outline
+#- title: 서울특별시 노원구
+#  icon: icon-map
 #- title: +82 10 xxxx xxxx
 #  icon: icon-phone
 #- title: 내 Github
