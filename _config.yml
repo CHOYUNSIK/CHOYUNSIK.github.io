@@ -198,7 +198,7 @@ project_my: # 형식에 맞추어 항목 추가
 - background_url: images/project1.png
   animation: fadeInLeft
   name: 결제 시스템 (PG) (총 15개 프로젝트로 구성)
-  description: 전자 상거래, 모바일 앱, POS(Point of Sale) 환경에서 다양한 결제 수단(신용카드, 계좌이체 등)을 안전하고 신속하게 처리하는 결제 시스템을 구축했습니다. 결제 API 개발, 원천사 연동, 인증 시스템 구현 등을 통해 안정적인 트랜잭션 환경을 제공합니다.
+  description: 전자 상거래, 모바일 앱, POS(Point of Sale) 환경에서 다양한 결제 수단(신용카드, 계좌이체 등)을 안전하고 신속하게 처리하는 결제 시스템을 구축했습니다. 결제 API 개발, 원천사 연동, 인증 시스템 구현 등을 통해 안정적인 트랜잭션 환경을 제공합니다. 또한, PG(결제 대행사)별 차액 정산 및 대사(정산 내역 검증) 처리를 자동화하기 위해 배치 시스템을 개발하여 데이터 정합성을 보장하고, PG별 대사 파일을 다운로드·저장하는 기능을 구현했습니다. 가맹점 및 대리점 API를 개발하여 결제 연동을 최적화하고, 멀티 모듈 프로젝트 구조를 도입하여 유지보수성을 강화했습니다.
   detail_url: https://ysiksik.github.io/payment-system/
 #  readmore_url: #
 
