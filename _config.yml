@@ -130,9 +130,9 @@ tech_list: # 형식에 맞추어 항목 추가
   percent: 80
   mark: 80
   content:
-    백엔드 애플리케이션 개발에 Java를 활용하며, 객체지향 프로그래밍(OOP) 원칙과 디자인 패턴을 적용하여 유지보수성과 확장성이 높은 코드를 작성하는 데 집중합니다. 멀티스레딩, 컬렉션 프레임워크, 스트림 API 등의 기능을 활용하여 효율적인 애플리케이션을 개발한 경험이 있습니다.
+     객체지향 프로그래밍(OOP) 원칙과 디자인 패턴을 적용하여 유지보수성과 확장성이 높은 코드를 작성하는 데 집중합니다. 멀티스레딩, 컬렉션 프레임워크, 스트림 API 등의 기능을 활용하여 효율적인 애플리케이션을 개발한 경험이 있습니다.
 
-- name:  Spring Framework
+- name: Spring Framework
   color: color-2
   animation: fadeInRight
   percent: 80
@@ -149,7 +149,7 @@ tech_list: # 형식에 맞추어 항목 추가
     대량의 데이터를 효율적으로 처리하기 위해 Spring Batch를 활용하여 배치 작업을 설계하고 최적화할 수 있습니다. 정산, 로그 분석, 데이터 마이그레이션 등 반복적인 작업을 자동화하고, 성능 최적화를 고려한 배치 프로세스를 구현한 경험이 있습니다.
   
 - name: Thymeleaf
-  color: color-5
+  color: color-1
   animation: fadeInRight
   percent: 50
   mark: 50
@@ -195,21 +195,21 @@ project_my: # 형식에 맞추어 항목 추가
 #  detail_url: #
 #  readmore_url: #
 
-- background_url: images/project3.webp
+- background_url: images/project3.png
   animation: fadeInLeft
   name: 결제 시스템 (PG) (총 15개 프로젝트로 구성)
   description: 전자 상거래, 모바일 앱, POS(Point of Sale) 환경에서 다양한 결제 수단(신용카드, 계좌이체 등)을 안전하고 신속하게 처리하는 결제 시스템을 구축했습니다. 결제 API 개발, 원천사 연동, 인증 시스템 구현 등을 통해 안정적인 트랜잭션 환경을 제공합니다.
   detail_url: https://ysiksik.github.io/payment-system/
 #  readmore_url: #
 
-- background_url: images/project2.webp
+- background_url: images/project2.png
   animation: fadeInLeft
   name: 쿠폰 서비스 (총 5개 프로젝트로 구성)
   description: 사용자가 모바일을 통해 간편하게 쿠폰을 발급·사용할 수 있도록 하는 소액 결제 기반의 쿠폰 서비스입니다. 할인 적용, 프로모션 관리, 쿠폰 복원 및 취소 기능을 포함하며, 다양한 결제 시스템과 연동하여 원활한 사용자 경험을 제공합니다.
   detail_url: https://ysiksik.github.io/coupon-service/
 #  readmore_url: #
 
-- background_url: images/project1.webp
+- background_url: images/project1.png
   animation: fadeInLeft
   name: 비트코인 거래소
   description: 비트코인 및 암호화폐 거래를 위한 웹 기반 거래소를 개발했습니다. 사용자는 이 플랫폼을 통해 안전하게 암호화폐를 구매·판매할 수 있으며, 실시간 거래 기능, 지갑 연동, 보안 강화된 결제 프로세스를 통해 원활한 거래 환경을 제공합니다.
@@ -318,7 +318,7 @@ career_header: Work Career
 career_list:
 - name: 트레드링스
   date: 2023.08 ~ 재직 중
-  content: 웹 스크래핑 기술을 활용하여 데이터 수집 시스템을 개발·운영하며, 다양한 산업 데이터를 자동으로 수집하고 가공하여 데이터 활용성을 극대화하고 있습니다. 또한, 광고 플랫폼을 개발하여 광고주와 매체를 효과적으로 연결하고, 타겟팅 광고 기능을 통해 광고 성과를 최적화하고 있습니다. 알림 센터 시스템을 구축하여 여러 프로젝트에서 발생하는 이벤트와 정보를 통합 관리하고, 사용자에게 적절한 채널을 통해 알림을 전달하는 역할을 수행하고 있습니다. 알림 배치 작업을 통해 서비스 내 변경 사항을 주기적으로 감지하고, 사용자들에게 중요한 정보 및 업데이트를 자동으로 전송하는 시스템을 개발하여 사용자 경험을 향상시키고 있습니다. 더불어, PAYPAL 및 STRIPE 구독 결제 연동을 구현하여 정기 결제 기능을 안정적으로 운영하고, 고객 맞춤형 데이터 서비스를 제공하여 비즈니스 성과 향상에 기여하고 있습니다.
+  content: 웹 스크래핑을 활용한 데이터 수집 시스템을 개발·운영하며, 광고 플랫폼을 구축하여 타겟팅 광고 기능을 최적화했습니다. 또한, 알림 센터 시스템을 통해 여러 프로젝트의 알림을 통합 관리하고, 알림 배치 작업을 통해 변경 사항을 자동으로 전송하는 기능을 개발했습니다. 더불어, PAYPAL 및 STRIPE 구독 결제를 연동하여 정기 결제 기능을 안정적으로 운영하며, 데이터 기반 서비스를 통해 고객 비즈니스 성과 향상에 기여하고 있습니다.
   color: color-5
   icon: icon-pen2
   animation: fadeInLeft
