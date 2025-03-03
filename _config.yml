@@ -195,6 +195,12 @@ project_my: # 형식에 맞추어 항목 추가
 #  detail_url: #
 #  readmore_url: #
 
+- background_url: images/project4.png
+  animation: fadeInLeft
+  name: 물류 (총 8개 프로젝트로 구성)
+  description: PAYPAL 및 STRIPE 기반의 **구독 결제 시스템** 을 도입하여 정기 결제를 지원했으며, 특히 STRIPE는 구매 전환율을 높이는 데 초점을 맞췄습니다. 또한, **알림 센터 및 선적 변경 알림 시스템** 을 구축해 실시간 물류 업데이트를 제공하고, **B2B 광고 플랫폼**을 개발하여 물류 업체 간 연결을 강화했습니다. 이와 함께, **FCL Schedule API** 및 **TERMINAL Schedule API** 를 통해 해운 일정을 자동으로 연동하여 운영 효율성을 높였으며, **FCL SCRAPER** 와 **TERMINAL SCRAPER** 를 개발해 선사 및 터미널 정보를 실시간으로 수집·정제하여 데이터의 정확성을 향상시켰습니다. 이를 통해 물류 산업의 디지털화를 가속화하고, 보다 체계적이고 효율적인 운영을 지원했습니다.
+  detail_url: https://ysiksik.github.io/logistics/
+
 - background_url: images/project1.png
   animation: fadeInLeft
   name: 결제 시스템 (PG) (총 15개 프로젝트로 구성)
